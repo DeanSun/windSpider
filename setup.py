@@ -6,11 +6,10 @@ install_requires = [
 ]
 
 setup(
-    name='demo',
+    name='windSpider',
     version='0.0.1',
-    packages=['demo'],
+    packages=['spider'],
     install_requires=install_requires,
     include_package_data=True,
-    # 指定依赖的python版本（此处指定的版本暂时不能变更）
-    python_requires='>=3.7'
+    python_requires='>=3.10'
 )
